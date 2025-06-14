@@ -31,6 +31,7 @@ h6 {
 
 button {
 	cursor: pointer;
+	display: block;
 }
 
 img {
@@ -249,6 +250,9 @@ img {
 		url(../images/people-office.jpg);
 
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
 
 	color: #ffffff;
 	padding: 72px 52px;
@@ -273,8 +277,6 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: #ffffff;
-	cursor: pointer;
-	display: block;
 	min-width: 169px;
 	height: 56px;
 	border: none;
@@ -287,4 +289,45 @@ img {
 .sec-one-button:focus {
 	background-color: #404bbf;
 	cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+	.sec-one {
+		height: 436px;
+		max-width: 768px;
+		color: #ffffff;
+		padding: 112px 0;
+		margin: 0 auto;
+	}
+	.sec-one-h {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		text-align: center;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+		max-width: 496px;
+		margin: 0 auto;
+		margin-bottom: 36px;
+	}
+}
+
+@media screen and (min-width: 1158px) {
+	.sec-one {
+		height: 600px;
+		max-width: 1440px;
+		padding: 188px 0;
+	}
+
+	.sec-one-h {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		text-align: center;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+		max-width: 496px;
+		margin: 0 auto;
+		margin-bottom: 48px;
+	}
 }
