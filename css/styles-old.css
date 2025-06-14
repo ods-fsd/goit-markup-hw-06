@@ -402,6 +402,8 @@ footer > .container {
 	fill: #f4f4fd;
 }
 
+/* ===== modal window styles ========== */
+
 .backdrop {
 	position: fixed;
 	width: 100%;
