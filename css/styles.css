@@ -239,103 +239,6 @@ address {
 	}
 }
 
-/* SECTION HERO */
-
-.sec-one {
-	height: 432px;
-	width: 100%;
-
-	background-color: #2e2f42;
-	background-image: linear-gradient(
-			rgba(46, 47, 66, 0.7),
-			rgba(46, 47, 66, 0.7)
-		),
-		url(../images/people-office.jpg);
-
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
-
-	color: #ffffff;
-	padding: 72px 52px;
-	margin: 0 auto;
-}
-
-.sec-one-h {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.11;
-	letter-spacing: 0.02em;
-	text-align: center;
-	color: #fff;
-	margin: 0 auto;
-	margin-bottom: 72px;
-	max-width: 216px;
-}
-
-.sec-one-button {
-	background-color: #4d5ae5;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.04em;
-	color: #ffffff;
-	min-width: 169px;
-	height: 56px;
-	border: none;
-	border-radius: 4px;
-	margin: 0 auto;
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sec-one-button:hover,
-.sec-one-button:focus {
-	background-color: #404bbf;
-	cursor: pointer;
-}
-
-@media screen and (min-width: 768px) {
-	.sec-one {
-		height: 436px;
-		max-width: 768px;
-		color: #ffffff;
-		padding: 112px 0;
-		margin: 0 auto;
-	}
-	.sec-one-h {
-		font-weight: 700;
-		font-size: 56px;
-		line-height: 1.07;
-		text-align: center;
-		letter-spacing: 0.02em;
-		color: #ffffff;
-		max-width: 496px;
-		margin: 0 auto;
-		margin-bottom: 36px;
-	}
-}
-
-@media screen and (min-width: 1158px) {
-	.sec-one {
-		height: 600px;
-		max-width: 1440px;
-		padding: 188px 0;
-	}
-
-	.sec-one-h {
-		font-weight: 700;
-		font-size: 56px;
-		line-height: 1.07;
-		text-align: center;
-		letter-spacing: 0.02em;
-		color: #ffffff;
-		max-width: 496px;
-		margin: 0 auto;
-		margin-bottom: 48px;
-	}
-}
-
 /* mobile menu */
 
 @media screen and (min-width: 768px) {
@@ -482,7 +385,108 @@ address {
 	height: 24px;
 }
 
+/* SECTION HERO */
+
+.sec-one {
+	height: 432px;
+	width: 100%;
+
+	background-color: #2e2f42;
+	background-image: linear-gradient(
+			rgba(46, 47, 66, 0.7),
+			rgba(46, 47, 66, 0.7)
+		),
+		url(../images/people-office.jpg);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+	color: #ffffff;
+	padding: 72px 52px;
+	margin: 0 auto;
+}
+
+.sec-one-h {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	margin-bottom: 72px;
+	max-width: 216px;
+}
+
+.sec-one-button {
+	background-color: #4d5ae5;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	min-width: 169px;
+	height: 56px;
+	border: none;
+	border-radius: 4px;
+	margin: 0 auto;
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sec-one-button:hover,
+.sec-one-button:focus {
+	background-color: #404bbf;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+	.sec-one {
+		height: 436px;
+		max-width: 768px;
+		color: #ffffff;
+		padding: 112px 0;
+		margin: 0 auto;
+	}
+	.sec-one-h {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		text-align: center;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+		max-width: 496px;
+		margin: 0 auto;
+		margin-bottom: 36px;
+	}
+}
+
+@media screen and (min-width: 1158px) {
+	.sec-one {
+		height: 600px;
+		max-width: 1440px;
+		padding: 188px 0;
+	}
+
+	.sec-one-h {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		text-align: center;
+		letter-spacing: 0.02em;
+		color: #ffffff;
+		max-width: 496px;
+		margin: 0 auto;
+		margin-bottom: 48px;
+	}
+}
+
 /* section 2 "Benefits" */
+
+.sec-two-box {
+	display: none;
+}
 
 .sec-two {
 	padding: 96px 0;
@@ -493,4 +497,93 @@ address {
 	display: flex;
 	flex-direction: column;
 	gap: 72px;
+}
+
+.sec-two-list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.sec-two-h {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #2e2f42;
+}
+
+.sec-two-parag {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+	.sec-two-ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 24px;
+	}
+
+	.sec-two-list {
+		max-width: calc((100% - 24px) / 2);
+		margin-bottom: 48px;
+	}
+}
+
+@media screen and (min-width: 1158px) {
+	.sec-two {
+		padding: 120px 0;
+	}
+
+	.sec-two-ul {
+		display: flex;
+		gap: 24px;
+	}
+
+	.sec-two-list {
+		width: calc((100% - 72px) / 4);
+		margin-bottom: 0;
+		gap: 0;
+	}
+
+	.sec-two-box {
+		border: 1px solid #8e8f99;
+		border-radius: 4px;
+		width: 264px;
+		height: 112px;
+		background: #f4f4fd;
+		margin-bottom: 8px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 24px 100px;
+	}
+
+	.sec-two-box .sec-two-icon {
+		width: 64px;
+		height: 64px;
+	}
+
+	.sec-two-h {
+		font-weight: 500;
+		font-size: 20px;
+		line-height: 1.2;
+		letter-spacing: 0.02em;
+		color: #2e2f42;
+		margin-bottom: 8px;
+		text-align: start;
+	}
+
+	.sec-two-parag {
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+	}
 }
