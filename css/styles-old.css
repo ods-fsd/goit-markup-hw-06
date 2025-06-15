@@ -4,16 +4,18 @@
 
 /* ------------------------ SECTION 2 ----------------------- */
 
-.sec-two {
-	padding: 120px 0;
+@media screen and (min-width: 1158px) {
+	.sec-two {
+		padding: 120px 0;
+	}
 }
 
-.sec-two-list {
+.sec-two-ul {
 	display: flex;
 	gap: 24px;
 }
 
-.sec-two-list-box {
+.sec-two-list {
 	width: calc((100% - 72px) / 4);
 }
 
@@ -30,7 +32,7 @@
 	align-items: center;
 }
 
-.sec-two-box svg {
+.sec-two-box .sec-two-icon {
 	width: 64px;
 	height: 64px;
 }
