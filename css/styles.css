@@ -931,7 +931,7 @@ address {
 
 .footer-input::placeholder {
 	font-size: 12px;
-	line-height: 200%;
+	line-height: 2;
 	letter-spacing: 0.04em;
 	color: #fff;
 }
@@ -944,7 +944,7 @@ address {
 
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 150%;
+	line-height: 1.5;
 	letter-spacing: 0.04em;
 	color: #fff;
 
@@ -963,4 +963,52 @@ address {
 }
 
 @media screen and (min-width: 768px) {
+	.footer-container {
+		justify-content: center;
+		align-items: flex-start;
+	}
+
+	.footer-sec-logo {
+		flex-direction: column;
+		width: 264px;
+		margin-right: 24px;
+	}
+
+	.footer-soc {
+		flex-direction: column;
+		width: 208px;
+		margin-bottom: 0;
+	}
+
+	.footer-sub {
+		margin-right: 43px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.footer-form {
+		flex-direction: row;
+		align-items: center;
+		gap: 24px;
+	}
+}
+
+@media screen and (min-width: 1158px) {
+	.footer-styles {
+		padding: 100px 0;
+	}
+
+	.footer-container {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	.footer-sec-logo {
+		margin-right: 120px;
+	}
+
+	.footer-sub {
+		margin-left: 80px;
+		margin-right: 0;
+	}
 }
