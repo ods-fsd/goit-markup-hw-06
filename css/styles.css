@@ -393,7 +393,10 @@ address {
 			rgba(46, 47, 66, 0.7),
 			rgba(46, 47, 66, 0.7)
 		),
-		url(../images/background-sec-hero.jpg);
+		image-set(
+			url(../images/mob/bg-mob-min.jpg) 1x,
+			url(../images/mob/bg-mob@2x-min.jpg) 2x
+		);
 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -442,7 +445,16 @@ address {
 		max-width: 768px;
 		color: #ffffff;
 		padding: 112px 0;
+		background-image: linear-gradient(
+				rgba(46, 47, 66, 0.7),
+				rgba(46, 47, 66, 0.7)
+			),
+			image-set(
+				url(../images/tab/bg-tab-min.jpg) 1x,
+				url(../images/tab/bg-tab@2x-min.jpg) 2x
+			);
 	}
+
 	.sec-one-h {
 		font-weight: 700;
 		font-size: 56px;
@@ -460,19 +472,27 @@ address {
 	.sec-one {
 		max-width: 1440px;
 		padding: 188px 0;
+		background-image: linear-gradient(
+				rgba(46, 47, 66, 0.7),
+				rgba(46, 47, 66, 0.7)
+			),
+			image-set(
+				url(../images/desk/bg-desk-min.jpg) 1x,
+				url(../images/desk/bg-desk@2x-min.jpg) 2x
+			);
 	}
+}
 
-	.sec-one-h {
-		font-weight: 700;
-		font-size: 56px;
-		line-height: 1.07;
-		text-align: center;
-		letter-spacing: 0.02em;
-		color: #ffffff;
-		max-width: 496px;
-		margin: 0 auto;
-		margin-bottom: 48px;
-	}
+.sec-one-h {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+	max-width: 496px;
+	margin: 0 auto;
+	margin-bottom: 48px;
 }
 
 /* section 2 "Benefits" */
@@ -506,6 +526,7 @@ address {
 	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	text-align: center;
 }
 
 .sec-two-parag {
@@ -528,6 +549,9 @@ address {
 
 	.sec-two-list {
 		max-width: calc((100% - 24px) / 2);
+	}
+	.sec-two-h {
+		text-align: start;
 	}
 }
 
