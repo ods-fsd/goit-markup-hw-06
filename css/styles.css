@@ -34,14 +34,14 @@ button {
 	display: block;
 }
 
+address {
+	font-style: normal;
+}
+
 img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-}
-
-address {
-	font-style: normal;
 }
 
 .visually-hidden {
@@ -1225,14 +1225,6 @@ address {
 	color: #8e8f99;
 }
 
-.privacy-policy-link {
-	color: #4d5ae5;
-	line-height: 1.33;
-	text-decoration: underline;
-	text-decoration-skip-ink: none;
-	margin-left: 24px;
-}
-
 .label-span {
 	display: inline-flex;
 	align-items: center;
@@ -1252,6 +1244,14 @@ address {
 	background-color: #404bbf;
 	border: none;
 	fill: #f4f4fd;
+}
+
+.privacy-policy-link {
+	color: #4d5ae5;
+	line-height: 1.33;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	margin-left: 24px;
 }
 
 .modal-button {
